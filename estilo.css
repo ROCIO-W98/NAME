@@ -17,5 +17,39 @@ h2 {
     }
     
     .flor1 {
-        width: 30%;
+        display: block;
+        width: 40%;
+        margin: 100px auto;
+        filter: drop-shadow(20px 20px 20px rgba(245, 13, 13, 0.322));
+        animation-name: mover;
+        animation-duration: 2s;
+        animation-iteration-count: infinite
+    }
+    @keyframes mover {
+   0%{
+       transform: scale(0);
+   } 
+   20%{
+       transform: scale(.5);
+   }
+   40%{
+       transform: scale(1);
+   }
+   60%{
+    transform: scale(1.5);
+}
+   80%{
+    transform: scale(1);
+}
+100%{
+    transform: scale(.5);
+}
+
+
+    }
+    .flor2 {
+        display: block;
+        width: 40%;
+        margin: 100px auto;
+        filter: drop-shadow(20px 20px 20px rgba(245, 13, 13, 0.322));
     }
