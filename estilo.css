@@ -1,55 +1,14 @@
-.body {
-
+* {
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+    list-style: none ;
+    box-sizing: border-box;
 }
-h1 {
- font-family:sans-serif;
- font-size: 50px;
- color:rgba(214, 80, 255, 0.664);
- text-align: center;
- height: 100px;
- padding-top: 4%;
-}
- 
-h2 {
-    text-decoration-line:underline;
-    font-size: 35px;
-
-    }
-    
-    .flor1 {
-        display: block;
-        width: 40%;
-        margin: 100px auto;
-        filter: drop-shadow(20px 20px 20px rgba(245, 13, 13, 0.322));
-        animation-name: mover;
-        animation-duration: 2s;
-        animation-iteration-count: infinite
-    }
-    @keyframes mover {
-   0%{
-       transform: scale(0);
-   } 
-   20%{
-       transform: scale(.5);
-   }
-   40%{
-       transform: scale(1);
-   }
-   60%{
-    transform: scale(1.5);
-}
-   80%{
-    transform: scale(1);
-}
-100%{
-    transform: scale(.5);
+.nav {
+    background-color: blueviolet;
+    height: 1000%;
+    width: 1000%;
 }
 
 
-    }
-    .flor2 {
-        display: block;
-        width: 40%;
-        margin: 100px auto;
-        filter: drop-shadow(20px 20px 20px rgba(245, 13, 13, 0.322));
-    }
