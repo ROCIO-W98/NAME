@@ -1,6 +1,7 @@
 body{
     font-family: sans-serif;
     padding: 0;
+    background-color:rgb(208, 223, 255);
 }
 .a{
     text-decoration: none;
@@ -37,3 +38,28 @@ nav a:hover {
         padding: 10px 5px;
     }
 }
+h3 {
+    font-family:'Trebuchet MS';
+    padding: 7px;
+    font-size: 22px;
+
+    text-align: center;
+    border-style: double;
+    border-color: blueviolet;
+}
+.img {
+    right: 45%;
+    padding-left: 90px;
+    transition: 2s;
+    border-radius: 15%;
+    float: inline-start;
+    background-color: rgba(199, 158, 233, 0.911);
+}
+p {
+   border-style:solid;
+   box-sizing: border-box;
+   }
+  
+
+    
+
