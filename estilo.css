@@ -1,3 +1,12 @@
+#content-img {
+    width:  100% ;
+    height: min-content;
+    justify-content:center;
+    background-color: black;
+}
+
+
+
 body{
     font-family: sans-serif;
     padding: 0;
@@ -47,13 +56,12 @@ h3 {
     border-style: double;
     border-color: blueviolet;
 }
-.img {
-    right: 45%;
-    padding-left: 90px;
-    transition: 2s;
-    border-radius: 15%;
-    float: inline-start;
-    background-color: rgba(199, 158, 233, 0.911);
+.img  {
+    width: 30%;
+    height: auto;
+    justify-items: center;
+    align-items: center;
+  
 }
 p {
    border-style:solid;
