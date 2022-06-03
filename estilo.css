@@ -2,7 +2,7 @@
     width:  100% ;
     height: min-content;
     justify-content:center;
-    background-color: black;
+    background-color: rgb(147, 117, 180);
 }
 
 
@@ -14,7 +14,7 @@ body{
 }
 .a{
     text-decoration: none;
-    color: black;
+    color: rgb(0, 0, 0);
 }
 header {
     min-height: 105px;
@@ -51,7 +51,6 @@ h3 {
     font-family:'Trebuchet MS';
     padding: 7px;
     font-size: 22px;
-
     text-align: center;
     border-style: double;
     border-color: blueviolet;
@@ -63,11 +62,15 @@ h3 {
     align-items: center;
   
 }
-p {
-   border-style:solid;
-   box-sizing: border-box;
-   }
-  
-
+.texto {
+    background-color: rgb(171, 144, 196);
+    font-family:'Trebuchet MS';
+    font-size: 200%;
+    text-align: center;
+    margin-top: 5%;
+    margin-left: auto;
+    padding: 5%;
+    border-style:solid;
+}
     
 
