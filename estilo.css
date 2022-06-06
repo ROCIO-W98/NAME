@@ -1,8 +1,8 @@
 #content-img {
-    width:  100% ;
-    height: min-content;
-    justify-content:center;
+    width:  80% ;
     background-color: rgb(147, 117, 180);
+    display:flexbox;
+    
 }
 
 
@@ -55,12 +55,18 @@ h3 {
     border-style: double;
     border-color: blueviolet;
 }
-.img  {
-    width: 30%;
-    height: auto;
-    justify-items: center;
-    align-items: center;
-  
+.img1{
+    width: 20%;
+}
+
+.img2 {
+    width: 20%;
+ 
+}
+
+.img3 {
+  width: 20%;
+
 }
 .texto {
     background-color: rgb(171, 144, 196);
